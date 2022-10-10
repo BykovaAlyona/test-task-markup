@@ -91,6 +91,6 @@ function onclickBtn() {
     }
 
     if (name != "" && phone != "") {
-        alert("ФИО: " + name + "\n Телефон: " + phone + "\n Цена: " + price);
+        alert("ФИО: " + name + "\n"+"Телефон: " + phone + "\n"+"Цена: " + price);
     }
 }

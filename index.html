@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>LevelUp</title>
+</head>
+
+<body>
+
+    <div id="promo-v1">
+        <h1>LevelUp</h1>
+        <img src="img/prod.png" />
+        <div>
+            <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li>Sed mattis mauris id est feugiat lobortis.</li>
+                <li>Sed eget libero ut turpis facilisis tempor eleifend ac mi.</li>
+            </ul>
+            <a href="/#order-form" class="a-btn">Заказать</a>
+        </div>
+    </div>
+
+    <div id="product-composition">
+        <div class="product-component">
+            <div>
+                <img src="img/component-1.jpg" />
+                <p>Lorem ipsum</p>
+            </div>
+            <div>
+                <img src="img/component-2.jpg" />
+                <p>Dolor sit</p>
+            </div>
+            <div>
+                <img src="img/component-3.jpg" />
+                <p>Amet</p>
+            </div>
+        </div>
+        <div id="div-product">
+            <img src="img/prod.png" />
+            <a href="/#order-form" class="a-btn">Заказать</a>
+        </div>
+        <div class="product-component">
+            <div>
+                <img src="img/component-4.jpg" />
+                <p>Nam id </p>
+            </div>
+            <div>
+                <img src="img/component-5.jpg" />
+                <p>Vulputate</p>
+            </div>
+            <div>
+                <img src="img/component-6.jpg" />
+                <p>Metus</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="feedback">
+        <ul class="slideshow">
+            <li class="slide">
+                <img src="img/photo.png" />
+                <span>Nunc quam eget</span>
+                <p>Aenean vehicula dui ac lorem malesuada, ac pretium felis pretium. Cras tempus, lorem a dapibus
+                    vulputate, justo felis sagittis quam, a laoreet libero tellus eu metus. Fusce luctus massa
+                    imperdiet, molestie risus sed, cursus justo. Nulla facilisi. Duis nec vulputate enim. Sed at nibh
+                    vitae erat tincidunt feugiat at eget leo. Praesent nec sapien sed tellus elementum dignissim id a
+                    nisl. Suspendisse non nulla nibh.</p>
+            </li>
+            <li class="slide">
+                <img src="img/photo.png" />
+                <span>In hac egestas</span>
+                <p>Curabitur lacinia diam in ullamcorper pellentesque. Nulla facilisi. Integer accumsan, odio id semper
+                    varius, tortor magna venenatis arcu, in imperdiet lectus leo pharetra odio. Phasellus eu mi eu sem
+                    condimentum elementum. Sed eu dictum elit. Cras sit amet massa at dui imperdiet accumsan vitae sed
+                    erat. Donec interdum elit non commodo fringilla. Vestibulum maximus sit amet erat cursus tempus.
+                    Donec semper, enim id hendrerit molestie, quam enim condimentum lorem, eleifend fringilla diam
+                    sapien eu lacus. Ut eleifend et urna quis tincidunt. </p>
+            </li>
+            <li class="slide">
+                <img src="img/photo.png" />
+                <span>In nec sem sit</span>
+                <p>Curabitur in ipsum eu ante hendrerit tempus. Suspendisse pretium sagittis felis, ut viverra lorem.
+                    Nulla quis felis eget arcu imperdiet viverra hendrerit eu risus. Proin convallis arcu eget hendrerit
+                    facilisis. Sed non dolor in tellus lobortis fermentum eu vitae sem. Integer vulputate neque non diam
+                    egestas aliquet. Pellentesque feugiat pretium lectus eget dignissim. Phasellus convallis elit id leo
+                    gravida, ut convallis ligula porttitor. Proin dignissim venenatis tempus. In dictum convallis nisi,
+                    id rutrum diam commodo id. </p>
+            </li>
+            <a class="prev" onclick="changeSlideId(-1)">❮</a>
+            <a class="next" onclick="changeSlideId(1)">❯</a>
+        </ul>
+        <div style="text-align: center;">
+            <span class="dot" onclick="chooseSlide(1)"></span>
+            <span class="dot" onclick="chooseSlide(2)"></span>
+            <span class="dot" onclick="chooseSlide(3)"></span>
+        </div>
+    </div>
+
+    <div id="promo-v2">
+        <div class="img-and-btn">
+            <img src="img/doctor.png" />
+            <a href="/#order-form" class="a-btn">Заказать</a>
+        </div>
+        <div class="text">
+            <p>
+                Cras tempor, ex ac tincidunt ornare, sem magna ultrices nulla, lacinia varius quam risus efficitur leo.
+                Duis et lorem quam. Pellentesque imperdiet eu sapien eget malesuada.
+            </p>
+            <p>
+                Integer fringilla commodo mauris ac volutpat. Aliquam dapibus orci interdum quam varius luctus. Aenean
+                pretium nisi tristique, sollicitudin leo eget, luctus turpis. Phasellus fermentum felis eu nibh
+                malesuada vulputate. Nullam varius vulputate urna quis vehicula.
+            </p>
+            <p>
+                Vivamus scelerisque faucibus viverra. Fusce a feugiat diam, tristique molestie nibh. In tincidunt rutrum
+                odio, non suscipit ex rhoncus quis. Suspendisse placerat vestibulum lacus quis tincidunt. In hac
+                habitasse platea dictumst.
+            </p>
+        </div>
+        <ul>
+            <li>Curabitur duis.</li>
+            <li>Donec volutpat.</li>
+            <li>Nulla a sapien.</li>
+        </ul>
+    </div>
+
+    <div id="order-form">
+        <div id="div-timer">
+            <h3>LevelUp</h3>
+            <h4 id="timer">00:30:00</h4>
+        </div>
+        <div id="div-price">
+            <img src="img/prod.png" />
+            <h5 id="old-price" class="noactual-price">98 $</h5>
+            <h5 id="new-price">43 $</h5>
+        </div>
+        <form>
+            <div>
+                <input type="text" id="name" placeholder="ФИО" title="ФИО" required />
+                <label for="name">ФИО: Иван Иванович Иванов</label>
+            </div>
+            <div>
+                <input type="tel" id="phone" oninput="justNumberInInput(this)" maxlength="11"
+                    placeholder="Телефон" title="Телефон" required />
+                <label for="phone">Телефон: 89514563285</label>
+            </div>
+            <input type="submit" value="Заказать" onclick="onclickBtn()" />
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
